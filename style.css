@@ -14,7 +14,12 @@ body{
     height: 100;
 }
 
+/*Navigation*/
+
 nav{
+    position: fixed;
+    width: 100%;
+    background-color: lightblue;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -24,7 +29,7 @@ nav{
 }
 
 nav img{
-    width: 100px;
+    width: 75px;
     cursor: pointer;
 }
 
@@ -44,4 +49,66 @@ nav .navigation ul li a{
     color: orangered;
     font-size: 18px;
     font-weight: 500;
+}
+
+/*Home*/
+
+#home{
+    background-image: linear-gradient(rgba(9,5,54,0.3),rgba(5,4,46,0.7)),url("images/backdrop.jpg");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 40px;
+}
+
+#home h2{
+    color: #fff;
+    font-size: 3.2em;
+    letter-spacing: 1px;
+}
+
+#home p{
+    width: 50%;
+    color: #fff;
+    font-size: 1.2em;
+    letter-spacing: 1px;
+}
+
+#home .button{
+    margin-top: 30px;
+}
+
+#home a{
+    text-decoration: none;
+    font-size: 0.9rem;
+    padding: 13px 25px;
+    background-color: white;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+#home a.blue{
+    color: white;
+    background-color: blue;
+    transition: 0.3s ease;
+}
+#home a.blue:hover{
+    color: blue;
+    background-color: white;
+}
+
+#home a.yellow{
+    color: white;
+    background-color: yellow;
+    transition: 0.3s ease;
+}
+#home a.yellow:hover{
+    color: yellow;
+    background-color: white;
 }
