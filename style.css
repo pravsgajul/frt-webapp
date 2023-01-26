@@ -26,14 +26,14 @@ nav img{
     cursor: pointer;
 }
 
-.navigation ul{
+nav .navigation ul{
     display: flex;
     justify-content: flex-end;
     align-items: center;
 }
 
 nav .navigation ul li{
-    list-style: none;
+    list-style: none; 
     margin-left: 30px;
 }
 
