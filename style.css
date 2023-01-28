@@ -235,3 +235,45 @@ nav .navigation ul li a{
     margin: 0 5px 10px 5px;
     font-weight: 600;
 }
+
+#registration .form{
+    background: white;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    box-shadow:0 8px 32px 0 rgba(255,255,255,0.25);
+}
+
+#registration .form input{
+    margin: 15px 0;
+    padding: 15px 10px;
+    border: 1px solid rgb(84, 40, 241);
+    outline: none;
+}
+
+#registration .form input::placeholder{
+    color: rgb(19, 20, 49);
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+#registration .form .button{
+    margin-top: 20px;
+}
+
+#registration .form a.yellow{
+    text-align: center;
+    padding: 13px 35px;
+    box-shadow: rgba(99,112,168,0.5);
+    text-align: center;
+    border-radius: 5px;
+    font-weight: 600;
+    color: white;
+    background-color: yellow;
+    transition: 0.3s ease;
+}
+#registration .form a.yellow:hover{
+    color: yellow;
+    background-color: white;
+}
