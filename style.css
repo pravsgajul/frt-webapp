@@ -201,7 +201,7 @@ nav .navigation ul li a{
 /*Registration*/
 #registration{
     padding: 6vw 8vw 6vw 8vw;
-    background-image: linear-gradient(rgba(99,112,168,0.5),rgba(81,91,233,0.5)),url("images/logo.png");
+    background-image: linear-gradient(rgba(99,112,168,0.5),rgba(81,91,233,0.5)),url("images/registerbackdrop.jpg");
     width: 100%;
     height: 100%;
     background-size: cover;
@@ -276,4 +276,19 @@ nav .navigation ul li a{
 #registration .form a.yellow:hover{
     color: yellow;
     background-color: white;
+}
+
+/*footer*/
+footer{
+    padding:8vw;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    color: #fff;
+}
+
+footer .footer-col{
+    padding-bottom: 40px;
 }
